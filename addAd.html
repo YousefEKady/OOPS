@@ -1,0 +1,243 @@
+﻿<!doctype html>
+<html lang="en" dir="rtl">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="assets/css/all.css" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Cairo|Tajawal&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap Select -->
+    <link rel="stylesheet" href="assets/css/bootstrap-select.min.css" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.rtlcss.com/bootstrap/v4.2.1/css/bootstrap.min.css" integrity="sha384-vus3nQHTD+5mpDiZ4rkEPlnkcyTP+49BhJ4wJeJunw06ZAp+wzzeBPUXr42fi8If" crossorigin="anonymous">
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="assets/css/media.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <title>OOPS</title>
+</head>
+<body>
+    <!-- Start Header -->
+    <div class="header" style="min-height: 200px;">
+        <div class="container">
+            <div class="n-avbar">
+                <a href="login.html"><i class="fas fa-user"></i></a>
+                <a href="addAd.html" class="btn">اضف اعلان</a>
+            </div>
+            <div class="content text-center" style="padding-top: 0;padding-bottom: 50px;">
+                <img src="assets/imgs/! اووبس.png" class="img-fluid title-img" />
+                <br />
+                <img src="assets/imgs/shopping-bag.png" class="img-fluid bag" />
+            </div>
+        </div>
+    </div>
+    <!-- End Header -->
+    <!-- Start Add Ad -->
+    <div class="ad">
+        <div class="container">
+            <h1 class="head">اضف اعلان</h1>
+        </div>
+        <div class="container co-style">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="content">
+                        <form>
+                            <div class="form-group">
+                                <label>اسم الاعلان</label>
+                                <input type="text" class="form-control" />
+                            </div>
+                            <div class="form-group">
+                                <label>صنف الاعلان</label>
+                                <select class="selectpicker form-control search-pick forValue">
+                                    <option value="0">..</option>
+                                    <option value="1">عربيات</option>
+                                    <option value="2">اخرى</option>
+                                </select>
+                            </div>
+                            <div class="for-hidden-car" style="display: none;">
+                                <div class="form-group">
+                                    <label>السعر</label>
+                                    <input type="text" class="form-control" />
+                                </div>
+                                <div class="form-group">
+                                    <label>طريقة الدفع</label>
+                                    <select class="selectpicker form-control no-border search-pick">
+                                        <option>..</option>
+                                        <option>كاش</option>
+                                        <option>مستعمل</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label>الموديل</label>
+                                    <select class="selectpicker form-control no-border search-pick">
+                                        <option>..</option>
+                                        <option>موديل</option>
+                                        <option>موديل</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label>السنة</label>
+                                    <select class="selectpicker form-control no-border search-pick">
+                                        <option>..</option>
+                                        <option>2019</option>
+                                        <option>2018</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label>كيلومترات</label>
+                                    <input type="number" class="form-control" />
+                                </div>
+                                <div class="form-group">
+                                    <label>ناقل الحركة</label>
+                                    <select class="selectpicker form-control no-border search-pick">
+                                        <option>..</option>
+                                        <option>مانيوال</option>
+                                        <option>اوتوماتيك</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label>الحالة</label>
+                                    <select class="selectpicker form-control no-border search-pick">
+                                        <option>..</option>
+                                        <option>زيرو</option>
+                                        <option>مستعمل</option>
+                                    </select>
+                                </div>
+                                <h3 class="moreads">إضافات:</h3>
+                                <div class="row">
+
+                                    <div class="col-md-4">
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                            <label class="custom-control-label" for="customCheck1">كاميرا خلفية</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck2">
+                                            <label class="custom-control-label" for="customCheck2">زجاج كهرباء</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck3">
+                                            <label class="custom-control-label" for="customCheck3">فوانيس شبورة</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck4">
+                                            <label class="custom-control-label" for="customCheck4">فوانيس شبورة</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck5">
+                                            <label class="custom-control-label" for="customCheck5">فوانيس شبورة</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck6">
+                                            <label class="custom-control-label" for="customCheck6">فوانيس شبورة</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label>وصف الاعلان</label>
+                                <textarea class="form-control" style="height: 180px;"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label>مكان الاعلان</label>
+                                <input type="text" class="form-control" />
+                            </div>
+                            <div class="form-group">
+                                <label>الاسم</label>
+                                <input type="text" class="form-control" />
+                            </div>
+                            <div class="form-group">
+                                <label>الايميل</label>
+                                <input type="email" class="form-control" />
+                            </div>
+                            <div class="form-group">
+                                <label>رقم الهاتف</label>
+                                <input type="tel" class="form-control" />
+                            </div>
+                            <div class="text-center">
+                                <button class="btn btn-ad">انشر الاعلان</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="assets/imgs/Group 33.png" class="img-fluid" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Add Ad -->
+    <!-- Start Footer -->
+    <div class="footer text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="content-img m-space">
+                        <img src="assets/imgs/! اووبس.png" class="img-fluid title-img" />
+                        <br />
+                        <img src="assets/imgs/shopping-bag.png" class="img-fluid bag" />
+
+                        <p>لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض على العميل ليتصور طريقه وضع النصوص بالتصاميم سواء كانت تصاميم مطبوعه... بورشور او فلاير على سبيل المثال ... او نماذج مواقع انترنت</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="content m-space">
+                        <a href="#!" class="d-block">الاسئلة الاكثر تداولا</a>
+                        <a href="#!" class="d-block">شروط الاستخدام</a>
+                        <a href="#!" class="d-block">سياسة الاستخدام</a>
+                        <a href="#!" class="d-block">خريطة المحافظات</a>
+                        <a href="#!" class="d-block">خريطة الموقع</a>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="content t-right m-space">
+                        <span><i class="fab fa-instagram one"></i></span>
+                        <span><i class="fab fa-twitter two"></i></span>
+                        <span><i class="fab fa-facebook three"></i></span>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="content m-space">
+                        <button class="btn">Get it on google play</button>
+                        <button class="btn">Get it on app store</button>
+                        <h3>قم بتحميل التطبيق الخاص بنا مجانا</h3>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- End Footer -->
+    <!-- Optional JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <!-- Font Awesome JS -->
+    <script src="assets/js/all.js"></script>
+
+    <!-- Bootstrap Select -->
+    <script src="assets/js/bootstrap-select.js"></script>
+
+    <!-- Plugin JS -->
+    <script src="assets/js/plugin.js"></script>
+
+</body>
+</html>

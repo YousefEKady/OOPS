@@ -1,0 +1,35 @@
+﻿/* Footer */
+@media (max-width: 767px) {
+    .footer .content {
+        text-align: center !important;
+    }
+    .footer .content a {
+        text-align: center !important;
+    }
+    .footer .content span {
+        text-align: center !important;
+    }
+    .footer .content h3 {
+        font-size: 19px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .footer .content span {
+        margin-right: 0 !important;
+    }
+    .footer .content-img .bag {
+        margin-right: -88px !important;
+    }
+    .footer .content h3 {
+        font-size: 19px !important;
+    }
+}
+/* Login */
+@media (max-width: 767px) {
+    .login img {
+        padding: 44px !important;
+    }
+    .login .bg-w {
+        border-radius: 0 !important;
+    }
+}
